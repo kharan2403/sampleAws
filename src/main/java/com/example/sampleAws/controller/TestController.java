@@ -13,4 +13,10 @@ public class TestController {
         String msg ="Welcome to AWS CodeBuild Demo!!!!";
         return  new ResponseEntity<>(msg, HttpStatus.OK);
     }
+
+    @GetMapping("/bye")
+    public ResponseEntity<String> bye(){
+        String msg ="bye to AWS CodeBuild Demo!!!!";
+        return  new ResponseEntity<>(msg, HttpStatus.OK);
+    }
 }

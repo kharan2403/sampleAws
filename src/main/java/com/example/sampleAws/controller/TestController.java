@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/greet")
     public ResponseEntity<String> greet(){
-        String msg ="Welcome to AWS CodeBuild Demo";
+        String msg ="Welcome to AWS CodeBuild Demo!!!!";
         return  new ResponseEntity<>(msg, HttpStatus.OK);
     }
 }
